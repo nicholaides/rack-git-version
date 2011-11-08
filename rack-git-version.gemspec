@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Rack::GitVersion::VERSION
   s.authors     = ["Mike Nicholaides"]
   s.email       = ["mike@ablegray.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "https://github.com/nicholaides/rack-git-version"
+  s.summary     = %q{Adds your git ref to the HTTP headers}
+  s.description = %q{Adds your git ref to the HTTP headers}
 
   s.rubyforge_project = "rack-git-version"
 
