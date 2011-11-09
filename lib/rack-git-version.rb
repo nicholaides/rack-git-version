@@ -11,9 +11,9 @@ module Rack
     end
 
     def call env
-      status, headers, response = @app.call env
+      status, headers, body = @app.call env
       headers["X-Git-Version"] ||= git_version
-      [status, headers, response]
+      [status, headers, body]
     end
   end
 end
