@@ -7,7 +7,7 @@ module Rack
     end
 
     def git_version
-      @@git_version ||= `git describe`.strip
+      @@git_version ||= `git describe --always`.strip
     end
 
     def call env
