@@ -11,7 +11,7 @@ GitVersion adds the output of `git describe` to your HTTP response headers. This
 require 'rack-git-version'
 config.middleware.use Rack::GitVersion
 ```
-## License
+## MIT License
 
 > Copyright (C) 2011 by Mike Nicholaides
 
